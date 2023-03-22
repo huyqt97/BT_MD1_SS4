@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+}
+main{
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid rgb(131, 126, 126);
+}
+.top{
+    background-image: url("./imgs/jeans.jpg");
+    background-size: cover;
+    background-position-x: -120px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+p{
+    padding: 20px;
+    background-color: rgba(33, 33, 33, 0.578);
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+}
+h2{
+    padding: 30px 20px;
+    font-size: 27px;
+}
+i{
+    padding: 5px;
+    background-color: rgb(229, 160, 32);
+    border-radius: 100%;
+    margin-right: 5px;
+}

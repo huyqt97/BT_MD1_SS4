@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+    background-image: url("./imgs/cho.jpg");
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+div {
+    background-color: rgba(64, 60, 60, 0.497);
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    top: 40%;
+    padding: 30px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    box-shadow: inset 0px 0px 20px;
+}
+
+h2 {
+    font-size: 37px;
+}
+
+p {
+    font-size: 20px;
+}

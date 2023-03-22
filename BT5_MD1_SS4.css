@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+body{
+    background-color: blueviolet;
+}
+main{
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px 50px 20px 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 350px;
+    position: relative;
+}
+main :nth-child(1){
+    font-size: 14px;
+    color: rgb(167, 164, 164);
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+main :nth-child(4){
+    padding-top: 20px;
+    color:rgb(183, 176, 176)
+}
+main :nth-child(5){
+    color:black ;
+}
+h2{
+    font-weight: 800;
+}

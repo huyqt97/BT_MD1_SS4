@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+body{
+    padding: 20px;
+}
+main{
+    margin: auto;
+    background-image: url("./imgs/jeans.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position-x: -200px;
+    border: 2px solid rgb(99, 96, 96);
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+span{
+    background-color: rgb(251, 43, 43);
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+p{
+    color: rgb(221, 225, 228) !important;
+}
+.noy{
+    position: absolute;
+    bottom: 15px;
+}

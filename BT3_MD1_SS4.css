@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f9f2f2;
+}
+main{
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("./imgs/df.jpg");
+    width: 300px;
+    height: 450px;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: inset 0px -100px 100px -70px rgb(73, 73, 70);
+}
+.content{
+    position: absolute;
+    bottom: 20px;
+}
+i{
+    
+}
+button{
+
+    padding: 1px;
+    min-width: 25px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #f9f2f2;
+}
